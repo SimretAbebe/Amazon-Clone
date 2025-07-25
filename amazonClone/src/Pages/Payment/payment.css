@@ -1,0 +1,70 @@
+.pay1{
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    background-color: gray;
+}
+.pay2{
+    padding: 30px;
+}
+
+.flexy{
+    display: flex;
+    gap: 20px;
+    padding: 30px;
+}
+.flexy h3 {
+    min-width: 300px;
+}
+
+.flexy img{
+    width: 80px !important;
+}
+.flexy div{
+    height: auto !important;
+}
+
+
+.paymentform{
+    max-width: 350px;
+    width: 100%;
+}
+
+/* .pay3{
+font-size: 20px;
+} */
+.price{
+    padding: 20px;
+}
+
+.price > div {
+    display: flex;
+    font-size: 16px;
+    gap: 10px;
+
+}
+.pay3 button{
+    margin-top: 15px;
+    width: 100%;
+    border: none;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    padding: 8px 10px;
+    cursor: pointer;
+}
+
+.loading{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    color: gray;
+}
+
+
+@media screen and (max-width) {
+   .flexy{
+    flex-direction: column;
+   }
+}
+

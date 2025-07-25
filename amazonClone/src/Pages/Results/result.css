@@ -1,0 +1,14 @@
+.products_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  max-width: 1450px;
+  margin: 100px auto;
+}
+
+.products_container section {
+  flex: 1 1 250px; /* flex-grow, flex-shrink, flex-basis */
+  max-width: 250px;
+  margin: 0;
+}

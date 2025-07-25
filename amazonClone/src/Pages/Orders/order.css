@@ -1,0 +1,23 @@
+.ordercont{
+    background-color: #efeeee;
+    padding: 30px;
+}
+
+.order{
+    background-color: #fff;
+    padding: 20px;
+}
+.order h2{
+    border-bottom: 2px  solid var(--primary-shade);
+    padding: 20px;
+}
+.ordercont p{
+    padding: 12px;
+}
+.ordercont img {
+    width: 100px !important;
+}
+
+.ordercont div {
+    height: auto !important;
+}

@@ -1,0 +1,15 @@
+# Ignore node_modules for both frontend and backend
+amazonClone/node_modules/
+amazon-api/node_modules/
+
+# Ignore build folders
+amazonClonet/build/
+dist/
+
+# Environment variables
+*.env
+amazonClone/.env
+amazon-api/.env
+
+# Logs and debug files
+*.log

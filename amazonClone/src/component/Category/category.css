@@ -1,0 +1,76 @@
+.category__container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  position: relative;
+  place-items: center;
+  margin-top: -10%;
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Card styling */
+.category {
+  height: 350px;
+  width: 100%;
+  max-width: 300px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.category:hover {
+  transform: translateY(-5px);
+}
+
+.category img {
+  width: 100%;
+  max-height: 250px;
+  object-fit: contain;
+  padding: 0px 10px;
+}
+
+.category a {
+  text-decoration: none;
+  color: rgb(35, 35, 35);
+}
+
+.category h2,
+.category p {
+  padding: 5px;
+  margin-left: 15px;
+}
+
+.category p {
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(9, 132, 209);
+}
+
+/* ✅ Responsive Breakpoints */
+@media (max-width: 1200px) {
+  .category__container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 900px) {
+  .category__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .category__container {
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 0;
+  }
+
+  .category {
+    height: auto;
+    max-width: 90%;
+  }
+
+  .category img {
+    max-height: 200px;
+  }
+}
